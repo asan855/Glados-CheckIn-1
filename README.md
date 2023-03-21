@@ -50,11 +50,12 @@ https://github.com/ChenAi140/GLaDOS-CheckIn
 
 3. 填写`secrets`  
    将cookie填入`Settings` -> `Secrets and variables` -> `Actions` -> `Repository secrets`中，命名一定要是`GLADOS_COOKIE`
+   
     <details><summary>点击此处展开</summary><pre>
     将cookie填入secrets
         <img src="./GLaDOS/images/配置cookie.png" alt="配置cookie">
     </pre> </details>
-
+   
 4. 激活Actions  
    <details><summary>点击此处展开</summary><pre>
     激活Actions，点击同意
