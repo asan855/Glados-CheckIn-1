@@ -39,7 +39,7 @@ jobs:
           isServerJpush: 0
           SendKey: ${{ secrets.SENDKEY }}         # SendKey
           # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ 默认值0(不推送消息)，可选值1(开启pushplus消息推送)
-          ispushpluspush: 0
+          ispushpluspush: 1
           token: ${{ secrets.TOKEN }}             # token
         run: |
           python ./GLaDOS/main.py
