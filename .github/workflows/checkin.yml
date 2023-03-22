@@ -7,7 +7,7 @@ on:
   
   # ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓修改下面的cron表达式
   schedule: # Actions自动运行，自动签到时间，cron表达式，不会的看README
-    - cron: "5 20 * * *" # 分 时 日 月 星期
+    - cron: "20 9 * * *" # 分 时 日 月 星期
     
   push:
     branches: ["main"]
